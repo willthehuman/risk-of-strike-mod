@@ -5,7 +5,7 @@ using R2API.Networking.Interfaces;
 using UnityEngine.Networking;
 using UnityEngine;
 
-namespace RiskOfVampire
+namespace RiskOfStrike
 {
     internal class SyncConfig : INetMessage
     {
@@ -59,7 +59,7 @@ namespace RiskOfVampire
 
             // hostでない場合、RoVクラスでインスタンス化しない
             // ここでRoVクラスからの参照を設定する
-            RiskOfVampire.syncConfig = this;
+            RiskOfStrike.syncConfig = this;
             Debug.Log("SyncConfig OnReceived");
         }
 

@@ -1,6 +1,6 @@
 ﻿using BepInEx.Logging;
 
-namespace RiskOfVampire
+namespace RiskOfStrike
 {
     internal static class Log
     {

@@ -16,7 +16,7 @@ using System;
 using R2API.Networking.Interfaces;
 
 #pragma warning disable Publicizer001 // Accessing a member that was not originally public
-namespace RiskOfVampire
+namespace RiskOfStrike
 {
     //You don't need this if you're not using R2API in your plugin, it's just to tell BepInEx to initialize R2API before this plugin so it's safe to use R2API.
     [BepInDependency(R2API.R2API.PluginGUID)]
@@ -27,7 +27,7 @@ namespace RiskOfVampire
 
     //This is the main declaration of our plugin class. BepInEx searches for all classes inheriting from BaseUnityPlugin to initialize on startup.
     //BaseUnityPlugin itself inherits from MonoBehaviour, so you can use this as a reference for what you can declare and use in your plugin class.
-    public class RiskOfVampire : BaseUnityPlugin
+    public class RiskOfStrike : BaseUnityPlugin
     {
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "mochi";
