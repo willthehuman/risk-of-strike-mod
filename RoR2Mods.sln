@@ -9,7 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metadata", "Metadata", "{3A
 	ProjectSection(SolutionItems) = preProject
 		Releases\manifest.json = Releases\manifest.json
 		README.md = README.md
-		RiskOfVampire\RiskOfVampire.dll = RiskOfVampire\RiskOfVampire.dll
 	EndProjectSection
 EndProject
 Global
